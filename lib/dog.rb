@@ -7,7 +7,7 @@ class Dog
   def initialize(name)
     @name = name
     @@all << self
-    @@dog_names << name
+    @@dog_names << name unless dog_names.include?(name)
   end 
   
   def self.clear_all
