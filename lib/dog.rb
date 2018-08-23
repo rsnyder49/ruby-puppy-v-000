@@ -21,7 +21,7 @@ class Dog
         unique_dogs << dog_name 
       end
     end 
-    unique_dogs.each{|name| puts "#{name}"
+    unique_dogs.each{|name| puts "#{name}"}
   end 
   
 end 
