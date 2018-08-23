@@ -15,13 +15,7 @@ class Dog
   end 
   
   def self.all 
-    unique_dogs = []
-    @@dog_names.each do |dog_name|
-      unless unique_dogs.include?(dog_name)
-        unique_dogs << dog_name 
-      end
-    end 
-    unique_dogs.each{|dog_name| puts "#{dog_name}"}
-  end 
+    @@all.each{|name| puts "#{name}"
+  end
   
 end 
